@@ -6,15 +6,17 @@ jQuery.bootstrap.toggle is a jQuery plugin which transforms a checkbox into a Bo
 
 #Basic Usage
 Just include the js file and call togglize() on any checkbox element
+
     $("input[type=checkbox]").togglize();
 
 #Customize
 Customize by adding attributes to the checkbox.
+####Customizable Attributes
 - id
 - data-on-caption: caption for when the toggle is on
 - data-off-caption: caption for when the toggle is off
 - data-on-icon: icon for when the toggle is on. Follows bootstrap icon convention.
 - data-off-icon: icon for when the toggle is off. Follows bootstrap icon convention.
 
-###Example
+####Example
     <input type = "checkbox" id = "isReady" data-on-caption = "Ready" data-off-caption = "Not Ready" data-on-icon = "icon-check" data-off-icon = "icon-ban-circle"/>
