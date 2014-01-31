@@ -2,6 +2,7 @@ jquery.bootstrap.toggle
 ================
 
 jQuery.bootstrap.toggle is a jQuery plugin which transforms any checkbox into a `Bootstrap Toggle` component.
+
 `Bootstrap Toggle` is a lightweight Bootstrap plugin that allows toggle switches on your pages. See how it works at https://github.com/minhur/bootstrap-toggle
 
 #Basic Usage
