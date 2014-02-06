@@ -10,6 +10,7 @@ Just include the js file and call togglize() on any checkbox element to transfor
 
     $("input[type=checkbox]").togglize();
 
+<<<<<<< HEAD
 	#Customize
 	Customize by adding attributes to the checkbox.
 	####Customizable Attributes
@@ -21,3 +22,16 @@ Just include the js file and call togglize() on any checkbox element to transfor
 
 	####Example
 	    <input type = "checkbox" id = "isReady" data-on-caption = "Ready" data-off-caption = "Not Ready" data-on-icon = "icon-check" data-off-icon = "icon-ban-circle"/>
+=======
+#Customize
+Customize by adding attributes to the checkbox.
+####Customizable Attributes
+- id
+- data-on-caption: caption for when the toggle is on
+- data-off-caption: caption for when the toggle is off
+- data-on-icon: icon for when the toggle is on. Follows bootstrap icon convention.
+- data-off-icon: icon for when the toggle is off. Follows bootstrap icon convention.
+
+####Example
+    <input type = "checkbox" id = "isReady" data-on-caption = "Ready" data-off-caption = "Not Ready" data-on-icon = "icon-check" data-off-icon = "icon-ban-circle"/>
+>>>>>>> 71f9bedb2e7d92fb448035b5ed11aec71ea125f1
